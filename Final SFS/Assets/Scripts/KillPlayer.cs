@@ -17,7 +17,7 @@ public class KillPlayer : MonoBehaviour
             LifeTextScript.health += -1;
 
 
-            FindObjectOfType<AudioManager>().Play("PlayerDeath");
+            FindObjectOfType<AudioManager2>().Play("PlayerDeathCollision");
 
             //gameLevelManager.RemoveLife();
             LevelManager.instance.Respawn();

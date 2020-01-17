@@ -184,7 +184,7 @@ GameObject:
   - component: {fileID: 3810514350447697555}
   - component: {fileID: 4963932151547467879}
   - component: {fileID: 6894020875105297429}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -313,7 +313,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b68a6d1d91424ecaafe4a45fe625665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 3064973912839226298, guid: a915c2e36e8194291b76ab77b58805e9,
+    type: 3}
   explosion: {fileID: 6136187107886903651, guid: 04a3885873ab148dfba4870e86930228,
     type: 3}
 --- !u!1 &7571812891021878608
@@ -458,7 +459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b68a6d1d91424ecaafe4a45fe625665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 3064973912839226298, guid: a915c2e36e8194291b76ab77b58805e9,
+    type: 3}
   explosion: {fileID: 6136187107886903651, guid: 04a3885873ab148dfba4870e86930228,
     type: 3}
 --- !u!1 &7593267873015552089

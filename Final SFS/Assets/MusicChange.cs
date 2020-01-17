@@ -20,12 +20,14 @@ public class MusicChange : MonoBehaviour
                     print(value);
                 }
             }
-            mySource.PlayOneShot(myAudio[toPlay], 0.9F);
-            mySource.Play();
-            Debug.Log(mySource.loop);
             mySource.loop = true;
+            //mySource.PlayOneShot(myAudio[toPlay], 1F);
+            mySource.clip = myAudio[toPlay];
+            mySource.volume = 1f;
+            //mySource.PlayScheduled(AudioSettings.dspTime + myAudio[toPlay].length);
+            mySource.Play();
 
-
+            Debug.Log(mySource.loop);
     }
 }
 

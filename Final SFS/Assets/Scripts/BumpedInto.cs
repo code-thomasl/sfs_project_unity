@@ -6,6 +6,6 @@ public class BumpedInto : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-            FindObjectOfType<AudioManager>().Play("PlayerBump");
+            FindObjectOfType<AudioManager2>().Play("PlayerBumpIntoObstacle");
     }
 }

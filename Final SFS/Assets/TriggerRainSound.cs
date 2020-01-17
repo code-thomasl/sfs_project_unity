@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TriggerRainSound : MonoBehaviour
 {
-    public AudioSource rainSound; // drag the rain sound here in the Inspector
+    public AudioSource sound; // drag the rain sound here in the Inspector
 
     void Start()
     { // find it at Start:
@@ -15,7 +15,7 @@ public class TriggerRainSound : MonoBehaviour
     {
         if (other.tag == "Player")
         { // only an object tagged Player stops the sound
-            rainSound.Play();
+            sound.Play();
             Debug.Log("Player entered!");
         }
     }
@@ -26,7 +26,7 @@ public class TriggerRainSound : MonoBehaviour
     {
         if (other.tag == "Player")
         { // only an object tagged Player restarts the sound
-            rainSound.Stop();
+            sound.Stop();
             Debug.Log("Player exit!");
         }
     }

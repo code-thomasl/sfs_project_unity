@@ -11,6 +11,8 @@ public class LevelManager : MonoBehaviour
 
     public static LevelManager instance;
     public GameObject gameOverText;
+    public GameObject respawnParticles;
+
     public bool gameOver = false;
 
     public int coins;
@@ -105,7 +107,11 @@ public class LevelManager : MonoBehaviour
         gamePlayer.gameObject.SetActive(false);
 
         yield return new WaitForSeconds(respawnDelay);
+        Instantiate(respawnParticles, gamePlayer.respawnPoint, Quaternion.identity);
+        FindObjectOfType<AudioManager2>().Play("PlayerRespawn");
         gamePlayer.transform.position = gamePlayer.respawnPoint;
         gamePlayer.gameObject.SetActive(true);
+
+
     }
 }

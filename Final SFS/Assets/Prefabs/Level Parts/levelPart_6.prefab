@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 7696477567291053884}
   - component: {fileID: 7696477567291053885}
   - component: {fileID: 7696477567291053886}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

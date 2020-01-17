@@ -122,9 +122,8 @@ GameObject:
   - component: {fileID: 884426152325945941}
   - component: {fileID: 2078490686541059278}
   - component: {fileID: 6638680797956561504}
-  - component: {fileID: 7902882906839752190}
   - component: {fileID: 4462861374219199041}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,21 +240,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7902882906839752190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110235303532236509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &4462861374219199041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +267,6 @@ GameObject:
   - component: {fileID: 7757577201048482090}
   - component: {fileID: 1442814132455728028}
   - component: {fileID: 717557156797236955}
-  - component: {fileID: 1725150330227594612}
   - component: {fileID: 7654144674865654021}
   m_Layer: 10
   m_Name: ObstacleTK (9)
@@ -402,21 +385,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1725150330227594612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2301240807446605708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &7654144674865654021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,7 +412,6 @@ GameObject:
   - component: {fileID: 1382471574921513275}
   - component: {fileID: 1989444833024376762}
   - component: {fileID: 1428606084262404794}
-  - component: {fileID: 7232636493687330060}
   - component: {fileID: 3131148408879619269}
   m_Layer: 10
   m_Name: ObstacleTK (11)
@@ -461,7 +428,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2328804365860590375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 102.8, y: -1.8, z: 555.8557}
+  m_LocalPosition: {x: 102.8, y: -4.5, z: 555.8557}
   m_LocalScale: {x: 1, y: 2, z: 0}
   m_Children: []
   m_Father: {fileID: 2256961623480166009}
@@ -563,21 +530,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7232636493687330060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2328804365860590375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &3131148408879619269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -674,9 +626,8 @@ GameObject:
   - component: {fileID: 4147626978778191869}
   - component: {fileID: 4147626978778191868}
   - component: {fileID: 4147626978778191871}
-  - component: {fileID: 4147626978778191870}
   - component: {fileID: 4147626978778191857}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -793,21 +744,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4147626978778191870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4147626978778191859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &4147626978778191857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1693,9 +1629,8 @@ GameObject:
   - component: {fileID: 4147626979480985756}
   - component: {fileID: 4147626979480985759}
   - component: {fileID: 4147626979480985758}
-  - component: {fileID: 4147626979480985745}
   - component: {fileID: 4147626979480985744}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1812,21 +1747,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4147626979480985745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4147626979480985746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &4147626979480985744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2141,9 +2061,8 @@ GameObject:
   - component: {fileID: 4147626980433952599}
   - component: {fileID: 4147626980433952598}
   - component: {fileID: 4147626980433952585}
-  - component: {fileID: 4147626980433952584}
   - component: {fileID: 4147626980433952587}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2260,21 +2179,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4147626980433952584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4147626980433952589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &4147626980433952587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2448,7 +2352,7 @@ GameObject:
   - component: {fileID: 3614462712622346017}
   - component: {fileID: 4768152909347678677}
   - component: {fileID: 6441545250229851559}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2592,9 +2496,8 @@ GameObject:
   - component: {fileID: 5739962824111057134}
   - component: {fileID: 9066542591143984852}
   - component: {fileID: 4232362830134575408}
-  - component: {fileID: 119100577102712614}
   - component: {fileID: 6834450720871081682}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2711,21 +2614,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &119100577102712614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4967699371610139215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &6834450720871081682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2753,9 +2641,8 @@ GameObject:
   - component: {fileID: 4101139970149240613}
   - component: {fileID: 1515021661234095432}
   - component: {fileID: 7028513712589061896}
-  - component: {fileID: 537261023950553741}
   - component: {fileID: 4024534037035962606}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2872,21 +2759,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &537261023950553741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5929495907719339933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &4024534037035962606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2914,7 +2786,6 @@ GameObject:
   - component: {fileID: 602581341132143056}
   - component: {fileID: 990626950662975394}
   - component: {fileID: 7342911149755845788}
-  - component: {fileID: 4356648789012727854}
   - component: {fileID: 7463490333273260968}
   m_Layer: 10
   m_Name: ObstacleTK (10)
@@ -2931,7 +2802,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6091319523932110725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 81.8, y: -1.8, z: 555.8557}
+  m_LocalPosition: {x: 81.8, y: -4.2, z: 555.8557}
   m_LocalScale: {x: 1, y: 2, z: 0}
   m_Children: []
   m_Father: {fileID: 2256961623480166009}
@@ -3033,21 +2904,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4356648789012727854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6091319523932110725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &7463490333273260968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3075,7 +2931,6 @@ GameObject:
   - component: {fileID: 7673478686857840049}
   - component: {fileID: 6522662709735814714}
   - component: {fileID: 929552851595243396}
-  - component: {fileID: 5478289264916211731}
   - component: {fileID: 1371468947929126743}
   m_Layer: 10
   m_Name: ObstacleTK (8)
@@ -3194,21 +3049,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5478289264916211731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7240558838913858352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &1371468947929126743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3671,9 +3511,8 @@ GameObject:
   - component: {fileID: 8400655899138838987}
   - component: {fileID: 4052185998338366559}
   - component: {fileID: 8002315376639905996}
-  - component: {fileID: 553778957494954057}
   - component: {fileID: 2153927902375148419}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3688,7 +3527,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8496259440838006710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 117.3, y: -1.8, z: 555.8557}
+  m_LocalPosition: {x: 117.3, y: -3.2, z: 555.8557}
   m_LocalScale: {x: 1, y: 2, z: 0}
   m_Children: []
   m_Father: {fileID: 2256961623480166009}
@@ -3790,21 +3629,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &553778957494954057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8496259440838006710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93309dd9809294030a339c9a460fb939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingPitch: 4
-  timeToDecrease: 5
-  decrease: 1
 --- !u!114 &2153927902375148419
 MonoBehaviour:
   m_ObjectHideFlags: 0

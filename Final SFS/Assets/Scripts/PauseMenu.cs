@@ -30,7 +30,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         AudioListener.volume = 1f;
-        FindObjectOfType<AudioManager>().Play("MenuClose");
+        FindObjectOfType<AudioManager2>().Play("CloseMenu");
 
 
     }
@@ -40,7 +40,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-        FindObjectOfType<AudioManager>().Play("MenuOpen");
+        FindObjectOfType<AudioManager2>().Play("OpenMenu");
         AudioListener.volume = 0.5f;
     }
 

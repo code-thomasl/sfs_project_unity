@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2656877691768582624}
   - component: {fileID: 937995498728376296}
   - component: {fileID: 7754450118601138798}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: ObstacleTK (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b68a6d1d91424ecaafe4a45fe625665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 3064973912839226298, guid: a915c2e36e8194291b76ab77b58805e9,
+    type: 3}
   explosion: {fileID: 6136187107886903651, guid: 04a3885873ab148dfba4870e86930228,
     type: 3}
 --- !u!1 &5389349952150699386
@@ -326,7 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b68a6d1d91424ecaafe4a45fe625665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 3064973912839226298, guid: a915c2e36e8194291b76ab77b58805e9,
+    type: 3}
   explosion: {fileID: 6136187107886903651, guid: 04a3885873ab148dfba4870e86930228,
     type: 3}
 --- !u!1 &8497942194594987148
@@ -570,11 +572,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4023088944837175887, guid: ce26297b2d64642ba897adbb53d4897e,
-        type: 3}
-      propertyPath: spawnPoint
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce26297b2d64642ba897adbb53d4897e, type: 3}

@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            FindObjectOfType<AudioManager>().Play("PlayerJump");
+            FindObjectOfType<AudioManager2>().Play("PlayerJump");
             extraJumps--;
         }
 

@@ -11,11 +11,11 @@ public class MovingPlatform : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        if(transform.position.y > 0.55f)
+        if (transform.position.y > 0.55f)
         {
             moveDown = false;
         }
-        if(transform.position.y < -2.55f)
+        if (transform.position.y < -2.55f)
         {
             moveDown = true;
         }
